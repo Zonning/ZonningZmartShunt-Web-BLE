@@ -1,0 +1,130 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    color: #2c3e50;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #34495e;
+}
+
+p {
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+/* Buttons */
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+button:active {
+    background-color: #1c5980;
+}
+
+/* BLE State */
+#bleState {
+    font-weight: bold;
+}
+
+/* Battery Stats */
+#voltageContainer,
+#currentContainer,
+#chargeStateContainer {
+    font-weight: bold;
+    color: #27ae60;
+}
+
+/* Form Elements */
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+select, input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+select {
+    background-color: white;
+}
+
+/* Update Settings Button */
+#updateSettingsButton {
+    background-color: #2ecc71;
+}
+
+#updateSettingsButton:hover {
+    background-color: #27ae60;
+}
+
+#updateSettingsButton:active {
+    background-color: #1e8449;
+}
+
+/* Last Reading and Settings Sent */
+#timestamp, #settingsSent {
+    font-weight: bold;
+    color: #e67e22;
+}
+
+/* Container for Battery Stats and Settings */
+.stats-container, .settings-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9rem;
+    color: #7f8c8d;
+}
+
+footer a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
