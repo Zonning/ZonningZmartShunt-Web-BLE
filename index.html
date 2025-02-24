@@ -160,9 +160,9 @@
     // Update Battery Stats in the UI
     function updateBatteryStats(jsonString) {
       const stats = JSON.parse(jsonString);
-      voltageContainer.innerHTML = stats.batteryVolts || "NaN";
-      currentContainer.innerHTML = stats.batteryCurrent || "NaN";
-      chargeStateContainer.innerHTML = stats.chargeState || "NaN";
+      voltageContainer.innerHTML = stats.batteryVolts || 0;
+      currentContainer.innerHTML = stats.batteryCurrent || 0;
+      chargeStateContainer.innerHTML = stats.chargeState || 0;
     }
 
     // Update Battery Settings
